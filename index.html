@@ -39,6 +39,7 @@
                   height="11"
                   viewBox="0 0 13 11"
                   fill="none"
+                  class="filter__btn--svg"
                 >
                   <path
                     d="M6.5 10.5L12.1292 0.75H0.870835L6.5 10.5Z"
@@ -46,7 +47,7 @@
                   />
                 </svg>
               </button>
-              <ul class="">
+              <ul class="filter__list filter__list--opened">
                 <li>
                   <button class="filter__btn filter__btn--item" type="button">
                     Wszystkie
@@ -78,6 +79,7 @@
                   height="11"
                   viewBox="0 0 13 11"
                   fill="none"
+                  class="filter__btn--svg"
                 >
                   <path
                     d="M6.5 10.5L12.1292 0.75H0.870835L6.5 10.5Z"
@@ -85,7 +87,7 @@
                   />
                 </svg>
               </button>
-              <ul class="">
+              <ul class="filter__list filter__list--opened">
                 <li>
                   <button class="filter__btn filter__btn--item" type="button">
                     Wszystkie
@@ -127,6 +129,7 @@
                   height="11"
                   viewBox="0 0 13 11"
                   fill="none"
+                  class="filter__btn--svg"
                 >
                   <path
                     d="M6.5 10.5L12.1292 0.75H0.870835L6.5 10.5Z"
@@ -134,13 +137,12 @@
                   />
                 </svg>
               </button>
-              <ul class="">
+              <ul class="filter__list filter__list--opened">
                 <li>
                   <button class="filter__btn filter__btn--item" type="button">
                     Wszystkie
                   </button>
                 </li>
-
                 <li class="">
                   <button class="filter__btn filter__btn--item" type="button">
                     A
@@ -186,6 +188,7 @@
                   height="11"
                   viewBox="0 0 13 11"
                   fill="none"
+                  class="filter__btn--svg"
                 >
                   <path
                     d="M6.5 10.5L12.1292 0.75H0.870835L6.5 10.5Z"
@@ -193,7 +196,7 @@
                   />
                 </svg>
               </button>
-              <ul class="">
+              <ul class="filter__list filter__list--opened">
                 <li>
                   <button class="filter__btn filter__btn--item" type="button">
                     Wszystkie
@@ -221,60 +224,14 @@
         </div>
 
         <!-- total -->
-        <p class="total">Liczba wyników:</p>
+        <div class="total"></div>
 
         <!-- cards -->
         <div>
           <!-- h2 hidden-->
           <h2>Items</h2>
 
-          <ul class="cards">
-            <li class="cards__item">
-              <img
-                class="cards__image"
-                src="./images/Rectangle_1751.png"
-                alt="product"
-                width="200"
-              />
-              <a href="#">
-                <h3 class="cards__header">
-                  WW90T754ABT, Pralka QuickDrive™, 9 kg, biała
-                </h3>
-              </a>
-              <ul class="cards__text-list">
-                <li class="cards__text-item">
-                  Pojemność (kg):
-                  <span class="cards__text-item--accent">9</span>
-                </li>
-                <li class="cards__text-item">
-                  Wymiary (GxSxW):
-                  <span class="cards__text-item--accent">55 x 60 x 85 cm</span>
-                </li>
-                <li class="cards__text-item">
-                  Funkcje:
-                  <span class="cards__text-item--accent"
-                    >Drzwi AddWash™, Panel AI Control, Silnik inwerterowy,
-                    Wyświetlacz elektroniczny</span
-                  >
-                </li>
-                <li class="cards__text-item cards__class">
-                  Klasa energetyczna
-                </li>
-                <li class="cards__text-item cards__class">
-                  Cena obowiązuje: 15.09.2022 - 21.09.2022
-                </li>
-              </ul>
-              <div class="cards__price">
-                <p class="cards__price-text">3199</p>
-                <div class="cards__price--accent-list">
-                  <span class="cards__price--accent">00</span>
-                  <span class="cards__price--accent">zł</span>
-                </div>
-              </div>
-              <p class="cards__credits">53,31 zł x 60 rat</p>
-              <button id="" class="cards__button" type="button">WYBIERZ</button>
-            </li>
-          </ul>
+          <ul class="cards"></ul>
         </div>
 
         <!-- pagination button -->
@@ -293,5 +250,7 @@
       </div>
     </section>
     <div class="white-space"></div>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
