@@ -156,7 +156,6 @@ button {
       background-color: var(--filters-background-color);
     }
 
-    &:hover .filter__btn--svg,
     &:focus .filter__btn--svg {
       transform: rotate(180deg);
       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -184,7 +183,7 @@ button {
     right: 0;
     opacity: 0;
     pointer-events: none;
-
+    z-index: 5;
 
     &--opened {
       opacity: 1;
