@@ -82,3 +82,15 @@ total.innerHTML = (
         `<p>Liczba wyników: ${productItems.length}</p>`
 );
 
+
+///add evtlistn on filter buttons
+const filterBtnPrimary = document.querySelectorAll('.btn-primary');
+const filterBtnList = document.querySelectorAll('.filter__list');
+
+const onBtnClick = () => {
+    filterBtnList.forEach(btn => {
+        btn.classList.toggle("filter__list--opened");
+    });
+};
+
+filterBtnPrimary.forEach(btn => {btn.addEventListener('click', onBtnClick)});
