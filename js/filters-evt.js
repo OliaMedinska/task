@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // e for filter buttons
     filterBtns.forEach(btn => {
       btn.addEventListener('click', function(e) {
-        toggleFilterList(this);
-        closeOtherFilterLists(this);
+        toggleFilterList(btn);
+        closeOtherFilterLists(btn);
         e.stopPropagation();
       });
     });
@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.filter__list').forEach(filterList => {
       filterList.addEventListener('click', function(e) {
         e.stopPropagation();
-        console.log('List clicked');
       });
     });
   });
