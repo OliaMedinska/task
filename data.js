@@ -2,7 +2,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1751.png',
         name: 'WW90T754ABT, Pralka QuickDrive™, 9 kg, biała',
-        capacity: '9',
+        capacity: 9,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Drzwi AddWash™, Panel AI Control',
         energyClass: 'A',
@@ -12,7 +12,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1752.png',
         name: 'WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała',
-        capacity: '10,5',
+        capacity: 10.5,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Drzwi AddWash™, Silnik inwerterowy, Wyświetlacz elektroniczny',
         energyClass: 'B',
@@ -22,7 +22,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1752.png',
         name: 'WW90T654DLH, Pralka EcoBubble™,9 kg, biała',
-        capacity: '9',
+        capacity: 9,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Drzwi AddWash™, Panel AI Control, Silnik inwerterowy',
         energyClass: 'C',
@@ -32,7 +32,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1751.png',
         name: 'WW90T754ABT, Pralka QuickDrive™, 9 kg, biała',
-        capacity: '9',
+        capacity: 9,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Drzwi AddWash™, Panel AI Control, Wyświetlacz elektroniczny',
         energyClass: 'D',
@@ -42,7 +42,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1752.png',
         name: 'WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała',
-        capacity: '10,5',
+        capacity: 10.5,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Panel AI Control, Silnik inwerterowy, Wyświetlacz elektroniczny',
         energyClass: 'E',
@@ -52,7 +52,7 @@ export const productItems = [
     {
         img: './images/Rectangle_1752.png',
         name: 'WW90T654DLH, Pralka EcoBubble™, 8 kg, biała',
-        capacity: '8',
+        capacity: 8,
         dimensions: '55 x 60 x 85 cm',
         functions: 'Drzwi AddWash™, Panel AI Control, Silnik inwerterowy',
         energyClass: 'F',
