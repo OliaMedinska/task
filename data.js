@@ -4,7 +4,7 @@ export const productItems = [
         name: 'WW90T754ABT, Pralka QuickDrive™, 9 kg, biała',
         capacity: 9,
         dimensions: '55 x 60 x 85 cm',
-        functions: 'Drzwi AddWash™, Panel AI Control',
+        functions: 'Drzwi AddWash™, Panel AI Control, Wyświetlacz elektroniczny',
         energyClass: 'A',
         price: 3299,
         payments: '53,31 zł x 60 rat',

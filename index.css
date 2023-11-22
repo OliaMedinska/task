@@ -53,6 +53,10 @@ button {
   font-family: "SamsungOne", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1086px;
   margin: 0 auto;
