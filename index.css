@@ -326,7 +326,7 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 9px;
-  margin: 20px auto 0px;
+  margin: 20px auto 40px;
   padding-bottom: 54px;
   min-width: 118px;
   border: none;
@@ -337,8 +337,4 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-}
-
-.white-space {
-  height: 100px;
 }/*# sourceMappingURL=index.css.map */
