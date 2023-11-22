@@ -1,10 +1,8 @@
 import { productItems } from '../data.js';
 import { renderCards } from './card-render.js';
 
-const productList = document.querySelector('.cards');
 const searchInput = document.querySelector('.search-form__input');
 const filterBtns = document.querySelectorAll('.filter__item');
-    
 
 // cards render
 renderCards(productItems);

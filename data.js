@@ -58,5 +58,5 @@ export const productItems = [
         energyClass: 'F',
         price: 3299,
         payments: '53,31 zł x 60 rat',
-    },    
+    },  
 ];
